@@ -358,7 +358,7 @@ function ghost_init(show_bootup){
 	txt_message.innerHTML = "Ghost text goes here.";
 	txt_message.style.position = 'absolute';
 	txt_message.style.color = "white";
-	//txt_message.style.font = "14px arial, sans-serif";
+	txt_message.style.font = "20px arial, sans-serif";
 	txt_message.style.textShadow = "1px 2px 3px #000000";
 	txt_message.style.textAlign = 'center';
 	txt_message.style.top = '40px';
@@ -410,7 +410,7 @@ function ghost_init(show_bootup){
 	tatghoul.style.left = String(ghost_returnDocWidth() / 2) + 'px';
 	//
 	//FONT - load & set
-	var txt_germar = new FontFace("BMgermar", "url("+str_path_ghost+"font/BMgermar.TTF)", {});
+	/*var txt_germar = new FontFace("BMgermar", "url("+str_path_ghost+"font/BMgermar.TTF)", {});
 	//on loaded
 	txt_germar.load().then(function (loaded) {
 		document.fonts.add(loaded);
@@ -420,7 +420,7 @@ function ghost_init(show_bootup){
 		for(var i = 0; i < txtMsg.length; ++i){
 			txtMsg[i].style.font = "20px BMgermar, serif";
 		}
-	});
+	});*/
 	//hide ALL not in use - trigger once specter anim is done
 	ghost_hideThis("id_message");
 	ghost_hideAll();
