@@ -1,7 +1,7 @@
 # JUMP_SCARES_FOR_YOUR_WEBSITE.js
 Welcome to JUMP_SCARES_FOR_YOUR_WEBSITE.js!
 
-Run this haunted javascript to add a terrifying ghost to your website. Your visitors will be kept in a constant state of suspense!
+Run this haunted javascript to add a terrifying ghost to your website. Your visitors will be kept in a constant state of suspense! [CLICK HERE](http://tetrageddon.com/scaresoft/) for a live demo.
 
 Features include:
 * Jump scares
