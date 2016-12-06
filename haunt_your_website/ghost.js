@@ -432,6 +432,7 @@ function ghost_init(show_bootup){
 		//bypass the bootup message and just go to ghost
 		//desirable for jump-scares and hauntings where you do not wish you warn you victim of imminent doom
 		start_ghost();
+		ghost_hideThis("id_bootup");
 	}
 	//play bootup audio
 	var snd_bootup = new Audio(str_path_ghost + "audio/AUD_BOOTUP_DEFAULT.mp3");
